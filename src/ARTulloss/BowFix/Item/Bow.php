@@ -3,16 +3,17 @@
 declare(strict_types=1);
 namespace ARTulloss\BowFix\Item;
 
+use pocketmine\Player;
+use pocketmine\entity\Entity;
 use pocketmine\entity\projectile\Projectile;
 use pocketmine\event\entity\EntityShootBowEvent;
 use pocketmine\event\entity\ProjectileLaunchEvent;
-use pocketmine\item\Bow AS OldBow;
 use pocketmine\item\enchantment\Enchantment;
 use pocketmine\item\Item;
 use pocketmine\item\ItemFactory;
 use pocketmine\network\mcpe\protocol\LevelSoundEventPacket;
+use pocketmine\item\Bow AS OldBow;
 use pocketmine\entity\projectile\Arrow AS ArrowEntity;
-use pocketmine\Player;
 
 /**
  * Class Bow
