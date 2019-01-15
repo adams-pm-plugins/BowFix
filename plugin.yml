@@ -1,0 +1,7 @@
+name: BowFix
+main: ARTulloss\BowFix\BowFix
+api: [3.0.0]
+version: 1.0.0
+author: ARTulloss
+website: github.com/artulloss
+description: Bow patch
